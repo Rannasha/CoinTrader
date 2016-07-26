@@ -7,6 +7,7 @@ namespace ExchangeHandlers
 {
     public enum TransactionType { BUY, SELL };
 
+    // Random test comment
     #region Kraken Classes
     [DataContract]
     public class KrakenOrderBook : OrderBook
